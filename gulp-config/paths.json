@@ -1,0 +1,8 @@
+{
+  "src": {
+    "styles" : "src/scss/main.sass"
+  },
+  "dest": {
+    "styles": "dist/assets/css/"
+  }
+}

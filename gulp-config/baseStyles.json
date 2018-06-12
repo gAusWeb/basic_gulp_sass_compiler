@@ -1,0 +1,6 @@
+{
+  "name": "bootstrap",
+  "version": "4",
+  "versionType": "grid",
+  "stylePath": "src/scss/main.sass"
+}

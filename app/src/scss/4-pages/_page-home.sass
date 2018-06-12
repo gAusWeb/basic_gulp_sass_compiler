@@ -1,0 +1,45 @@
+.main-content
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+
+	> div
+		min-height: 50%;
+		padding-left: 5px;
+		padding-right: 5px;
+		display: grid;
+
+		&:first-child
+			padding-left: 0px;
+			padding-right: 5px;
+	
+		&:last-child
+			padding-left: 5px;
+			padding-right: 0px;
+
+.content-text, .content-img
+	padding: 15px;
+	background-color: $semi-trans;
+	
+
+.text-img-1, .text-img-2
+	padding: 5px;
+	background: white;
+	margin-bottom: 10px;
+	width: 100%;
+
+.custom-gut-l
+	padding-left: 10px;
+
+.custom-gut-r
+	padding-right: 10px;
+
+.btn.btn-rounded
+	 +border-radius(20px)
+	 padding: 3px 50px;
+	 height: auto;
+	 text-transform: capitalize;
+	 letter-spacing: 0;
+
+	
